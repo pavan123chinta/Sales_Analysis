@@ -2,7 +2,7 @@ AAL Sales Analysis — 4th Quarter 2020
 
 A complete data analysis project exploring the sales performance of Australia Apparel Ltd. (AAL) during Q4 2020 using Python, covering data wrangling, cleaning, visualization, and business insights.
 
-📌 Project Overview
+Project Overview
 
 This project analyzes the Aus Apparel Sales 4th Quarter 2020 dataset to understand sales performance across:
 
@@ -18,14 +18,14 @@ Highest and lowest performing segments
 
 This analysis helps the business identify trends, bottlenecks, and potential opportunities for growth.
 
-📁 Project Structure
+ Project Structure
 AAL_Sales_Analysis_Project.ipynb
 AusApparalSales4thQrt2020.csv
 assets/
     └── plots/  (charts exported manually)
 README.md
 
-🛠️ Tech Stack
+Tech Stack
 
 Python
 
@@ -37,8 +37,8 @@ Matplotlib / Seaborn (visualizations)
 
 scikit-learn (scaling & preprocessing)
 
-🔍 Key Steps Performed
-1️⃣ Data Wrangling
+ Key Steps Performed
+ Data Wrangling
 
 Handling missing values
 
@@ -48,7 +48,7 @@ Normalizing numerical features using MinMaxScaler
 
 Cleaning and preparing dataset for analysis
 
-2️⃣ Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
 
 Descriptive statistics (mean, median, mode, std dev)
 
@@ -56,7 +56,7 @@ Sales distribution overview
 
 State-wise and group-wise performance comparison
 
-3️⃣ Time Series Summary
+ Time Series Summary
 
 Weekly sales
 
@@ -66,7 +66,7 @@ Quarterly aggregation
 
 Identifying seasonality and peak sales periods
 
-4️⃣ Visualizations
+Visualizations
 
 Bar charts: State-wise sales
 
@@ -78,23 +78,23 @@ Combined unit & sales comparison
 
 Distribution plots for scaled features
 
-📈 Insights
+ Insights
 
-✔ New South Wales (NSW) and Victoria (VIC) show the highest sales contribution
-✔ Women’s category performs strongest in most months
-✔ December shows significant revenue spikes due to seasonal purchases
-✔ Weekly sales show upward patterns close to festive periods
-✔ Normalized data reveals strong correlation between units sold & total revenue
+ New South Wales (NSW) and Victoria (VIC) show the highest sales contribution
+ Women’s category performs strongest in most months
+ December shows significant revenue spikes due to seasonal purchases
+ Weekly sales show upward patterns close to festive periods
+ Normalized data reveals strong correlation between units sold & total revenue
 
-🚀 How to Run
-1️⃣ Install dependencies
+How to Run
+Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-2️⃣ Open the notebook
+ Open the notebook
 jupyter notebook AAL_Sales_Analysis_Project.ipynb
 
-3️⃣ Run all cells to reproduce the analysis
-📦 Dataset
+Run all cells to reproduce the analysis
+ Dataset
 
 File: AusApparalSales4thQrt2020.csv
 Contains:
@@ -111,7 +111,7 @@ Sales Amount
 
 This dataset was provided as part of the PG Data Science & ML curriculum.
 
-🚀 Future Enhancements
+Future Enhancements
 
 Add predictive model for next quarter’s revenue
 
@@ -121,16 +121,10 @@ Add correlation heatmap and anomaly detection
 
 Deploy as a web-based interactive analytics tool
 
-👤 Author
+Author
 
 Pavan Chinta
-📍 Data Science & ML Enthusiast
-🔗 GitHub: https://github.com/YOUR_USERNAME
+ Data Science & ML Enthusiast
+ GitHub: https://github.com/YOUR_USERNAME
 
-If you want, I can also prepare:
 
-✅ Portfolio-style summary
-✅ LinkedIn project description
-✅ One-slide PPT summary
-
-Just tell me!
